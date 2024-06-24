@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Projets from "./components/Projets";
 import Stats from "./components/Stats";
 import Formation from "./components/Formation";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Projets />
       <Stats />
       <Formation />
+      <Contact />
     </>
   );
 }

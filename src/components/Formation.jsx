@@ -32,14 +32,16 @@ export default function Formation() {
           />
         </div>
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-            Support center
+          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
+            Formation Openclassrooms
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+          <p className="mt-4 text-lg leading-8 text-gray-300">
+            Suivez la formations Front-end 100% en ligne, et transformez vos
+            connaissances en compétences professionnelles.
           </p>
+          <button className="rounded-full bg-black px-5 py-2 text-sm font-medium text-white mt-8">
+            Plus de détails
+          </button>
         </div>
       </div>
     </div>
