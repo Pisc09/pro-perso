@@ -4,6 +4,7 @@ import Projets from "./components/Projets";
 import Stats from "./components/Stats";
 import Formation from "./components/Formation";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Stats />
       <Formation />
       <Contact />
+      <Footer />
     </>
   );
 }

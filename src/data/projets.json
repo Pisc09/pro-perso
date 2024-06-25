@@ -1,38 +1,50 @@
 [
   {
     "title": "Riding Cities",
-    "description": "Impressions de haute qualité pour les business, professionnels et passionnés.",
+    "description": "Une association dédiée aux amateurs de skateboard, promouvant la culture urbaine.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/riding-cities-img.png"
+    "imgPath": "../src/assets/images/riding-cities-img.png",
+    "sujet": "Bla bla bla",
+    "lien": "https://pisc09.github.io/riding/"
   },
   {
-    "title": "Start-up Voyage",
+    "title": "Start-up Booki",
     "description": "Réservez des voyages incroyables facilement avec Booki, votre start-up de confiance.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/booki-img.jpg"
+    "imgPath": "../src/assets/images/booki-img.jpg",
+    "sujet": "Bla bla bla",
+    "lien": "https://pisc09.github.io/booki/"
   },
   {
     "title": "Ohmyfood",
     "description": "Découvrez les menus des meilleurs restaurants sur OmyFood.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/ohmyfood-img.jpg"
+    "imgPath": "../src/assets/images/ohmyfood-img.jpg",
+    "sujet": "Bla bla bla",
+    "lien": "https://pisc09.github.io/ohmyfood/"
   },
   {
-    "title": "Print it",
+    "title": "Print-it",
     "description": "Impressions de haute qualité pour tous vos projets d'impression et créations.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/print-it-img.jpg"
+    "imgPath": "../src/assets/images/print-it-img.jpg",
+    "sujet": "Bla bla bla",
+    "lien": "https://pisc09.github.io/print-it/"
   },
   {
     "title": "Kasa",
     "description": "Trouvez votre appartement idéal entre particuliers avec le site Kasa.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/kasa-img.jpg"
+    "imgPath": "../src/assets/images/kasa-img.jpg",
+    "sujet": "Bla bla bla",
+    "lien": "https://incandescent-rugelach-a5d71f.netlify.app/"
   },
   {
     "title": "Nina Carducci",
     "description": "Explorez la monde de la photographie sur le site web de Nina Carducci.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/nina-carducci-img.jpg"
+    "imgPath": "../src/assets/images/nina-carducci-img.jpg",
+    "sujet": "Bla bla bla",
+    "lien": "https://pisc09.github.io/nina/"
   }
 ]

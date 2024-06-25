@@ -1,11 +1,28 @@
+// eslint-disable-next-line no-unused-vars
+import React, { useState } from "react";
 import projets from "../data/projets.json";
+import Modal from "react-modal";
+
+Modal.setAppElement("#root");
 
 export default function Projets() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [currentSite, setCurrentSite] = useState({});
+
+  const openModal = (site) => {
+    setCurrentSite(site);
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-24 sm:py-32" id="Réalisations">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="max-w-full text-center">
-          <h2 className="mb-6 text-4xl font-medium uppercase sm:text-4xl sm:uppercase">
+          <h2 className="mb-6 text-4xl font-medium uppercase sm:text-4xl sm:uppercase text-gray-900">
             Quelques réalisations
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -31,13 +48,65 @@ export default function Projets() {
                 {sites.description}
               </p>
               <div className="flex max-w-full flex-row justify-end">
-                <button className="mt-4 rounded-full bg-black px-5 py-2 text-sm font-medium text-white">
+                <button
+                  className="mt-4 rounded-full bg-black px-5 py-2 text-sm font-medium text-white"
+                  onClick={() => openModal(sites)}
+                >
                   {sites.btnSee}
                 </button>
               </div>
             </li>
           ))}
         </ul>
+        <Modal
+          isOpen={modalIsOpen}
+          onRequestClose={closeModal}
+          contentLabel="Site Details"
+          className="flex items-center justify-center outline-none border-0"
+        >
+          <div className="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-lg sm:w-full">
+            <div className="bg-gray-200 p-4">
+              <h2 className="text-2xl font-bold text-gray-900">
+                {currentSite.title}
+              </h2>
+              <p className="text-gray-600">{currentSite.description}</p>
+            </div>
+            <img
+              src={currentSite.imgPath}
+              alt={currentSite.title}
+              className="w-full object-cover h-48"
+            />
+            <div className="bg-white sm:rounded-lg">
+              <div className="px-4 py-5 sm:p-6">
+                <h3 className="text-base font-semibold leading-6 text-gray-900">
+                  Objectifs attendus lors de ce projet.
+                </h3>
+                <div className="mt-2 max-w-xl text-sm text-gray-500">
+                  <p>{currentSite.sujet}</p>
+                </div>
+                <div className="mt-3 text-sm leading-6">
+                  <a
+                    href={currentSite.lien}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-indigo-600 hover:text-indigo-500"
+                  >
+                    Pour en savoir plus sur le site {currentSite.title}
+                    <span aria-hidden="true"> &rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="p-4">
+              <button
+                onClick={closeModal}
+                className="mt-4 rounded-full bg-black px-5 py-2 text-sm font-medium text-white"
+              >
+                Fermer
+              </button>
+            </div>
+          </div>
+        </Modal>
       </div>
     </div>
   );

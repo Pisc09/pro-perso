@@ -5,7 +5,7 @@ export default function Formation() {
         <img
           src="../src/assets/images/formation-img.jpg"
           alt=""
-          className="absolute inset-0 -z-10 h-full w-full object-cover"
+          className="absolute brightness-50 inset-0 -z-10 h-full w-full object-cover"
         />
         <div
           className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -39,9 +39,15 @@ export default function Formation() {
             Suivez la formations Front-end 100% en ligne, et transformez vos
             connaissances en compétences professionnelles.
           </p>
-          <button className="rounded-full bg-black px-5 py-2 text-sm font-medium text-white mt-8">
-            Plus de détails
-          </button>
+          <a
+            href="https://openclassrooms.com/fr/paths/899-developpeur-web?jobPostingsPage=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="rounded-full bg-white px-5 py-2 text-sm font-medium text-black mt-8">
+              Plus de détails
+            </button>
+          </a>
         </div>
       </div>
     </div>
