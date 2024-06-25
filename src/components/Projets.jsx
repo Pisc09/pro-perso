@@ -79,11 +79,32 @@ export default function Projets() {
             <div className="bg-white sm:rounded-lg">
               <div className="px-4 py-5 sm:p-6">
                 <h3 className="text-base font-semibold leading-6 text-gray-900">
-                  Objectifs attendus lors de ce projet.
+                  Tâches principales :
                 </h3>
-                <div className="mt-2 max-w-xl text-sm text-gray-500">
-                  <p>{currentSite.sujet}</p>
-                </div>
+                <ul className="mt-4">
+                  {currentSite.taches &&
+                    currentSite.taches.map((tache, tacheIndex) => (
+                      <li key={tacheIndex}>{tache}</li>
+                    ))}
+                </ul>
+                <h3 className="text-base font-semibold leading-6 text-gray-900">
+                  Outils à utiliser :
+                </h3>
+                <ul>
+                  {currentSite.outils &&
+                    currentSite.outils.map((outil, outilIndex) => (
+                      <li key={outilIndex}>{outil}</li>
+                    ))}
+                </ul>
+                <h3 className="text-base font-semibold leading-6 text-gray-900">
+                  Objectifs pédagogiques :
+                </h3>
+                <ul>
+                  {currentSite.objectifs &&
+                    currentSite.objectifs.map((objectif, objectifIndex) => (
+                      <li key={objectifIndex}>{objectif}</li>
+                    ))}
+                </ul>
                 <div className="mt-3 text-sm leading-6">
                   <a
                     href={currentSite.lien}
@@ -92,7 +113,7 @@ export default function Projets() {
                     className="font-semibold text-indigo-600 hover:text-indigo-500"
                   >
                     Pour en savoir plus sur le site {currentSite.title}
-                    <span aria-hidden="true"> &rarr;</span>
+                    <span aria-hidden="true"> →</span>
                   </a>
                 </div>
               </div>

@@ -69,7 +69,7 @@ export default function Stats() {
         <h2 className="mb-6 text-4xl font-medium uppercase sm:text-4xl sm:uppercase text-gray-900">
           Quelques compétences
         </h2>
-        <p className="mt-6 mx-auto max-w-4xl text-center text-lg leading-8 text-gray-400">
+        <p className="mt-6 mx-auto max-w-4xl text-center text-lg leading-8 text-gray-400 px-5">
           Compétences en perpétuelle évolution, car la passion et la curiosité
           que j’éprouve pour ce métier transforment chaque jour en une occasion
           d’apprendre et de m’enrichir.

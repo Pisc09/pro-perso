@@ -4,47 +4,106 @@
     "description": "Une association dédiée aux amateurs de skateboard, promouvant la culture urbaine.",
     "btnSee": "Voir détails",
     "imgPath": "../src/assets/images/riding-cities-img.png",
-    "sujet": "Bla bla bla",
-    "lien": "https://pisc09.github.io/riding/"
+    "lien": "https://pisc09.github.io/riding/",
+    "taches": [
+      "Créer une nouvelle section sur la page web de l'association.",
+      "Ajouter un titre et deux boutons pour le téléchargement de plannings."
+    ],
+    "outils": [
+      "Figma pour accéder aux maquettes.",
+      "Visual Studio Code comme environnement de développement."
+    ],
+    "objectifs": [
+      "Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML."
+    ]
   },
   {
     "title": "Start-up Booki",
     "description": "Réservez des voyages incroyables facilement avec Booki, votre start-up de confiance.",
     "btnSee": "Voir détails",
     "imgPath": "../src/assets/images/booki-img.jpg",
-    "sujet": "Bla bla bla",
-    "lien": "https://pisc09.github.io/booki/"
+    "lien": "https://pisc09.github.io/booki/",
+    "taches": [
+      "Créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS.",
+      "Intégrer l'interface responsive du site avec précision."
+    ],
+    "outils": [
+      "Maquettes Figma pour mobile, tablette et desktop.",
+      "Environnement de développement efficace pour HTML et CSS."
+    ],
+    "objectifs": [
+      "Implémenter une interface responsive avec HTML et CSS.",
+      "Installer un environnement de développement front-end.",
+      "Intégrer du contenu conforme aux maquettes avec HTML et CSS."
+    ]
   },
   {
     "title": "Ohmyfood",
     "description": "Découvrez les menus des meilleurs restaurants sur OmyFood.",
     "btnSee": "Voir détails",
     "imgPath": "../src/assets/images/ohmyfood-img.jpg",
-    "sujet": "Bla bla bla",
-    "lien": "https://pisc09.github.io/ohmyfood/"
+    "lien": "https://pisc09.github.io/ohmyfood/",
+    "taches": [
+      "Intégrer une maquette en mobile-first pour le site d'une start-up.",
+      "Implémenter des animations CSS pour enrichir l'expérience utilisateur."
+    ],
+    "outils": [
+      "Sass pour étendre les fonctionnalités CSS.",
+      "Git et GitHub pour versionner le projet."
+    ],
+    "objectifs": [
+      "Intégrer une maquette en mobile-first.",
+      "Mettre en œuvre des animations CSS.",
+      "Versionner le projet avec Git et GitHub."
+    ]
   },
   {
     "title": "Print-it",
     "description": "Impressions de haute qualité pour tous vos projets d'impression et créations.",
     "btnSee": "Voir détails",
     "imgPath": "../src/assets/images/print-it-img.jpg",
-    "sujet": "Bla bla bla",
-    "lien": "https://pisc09.github.io/print-it/"
+    "lien": "https://pisc09.github.io/print-it/",
+    "taches": [
+      "Dynamiser le site internet statique d'une imprimerie en ajoutant un carrousel interactif en JavaScript."
+    ],
+    "outils": [
+      "Visual Studio Code pour coder en JavaScript.",
+      "GitHub pour versionner et stocker le travail."
+    ],
+    "objectifs": ["Programmer en utilisant les fondamentaux de JavaScript."]
   },
   {
     "title": "Kasa",
     "description": "Trouvez votre appartement idéal entre particuliers avec le site Kasa.",
     "btnSee": "Voir détails",
     "imgPath": "../src/assets/images/kasa-img.jpg",
-    "sujet": "Bla bla bla",
-    "lien": "https://incandescent-rugelach-a5d71f.netlify.app/"
+    "lien": "https://incandescent-rugelach-a5d71f.netlify.app/",
+    "taches": [
+      "Implémenter le front-end d'une application avec React et React Router.",
+      "Configurer la navigation entre les pages de l'application."
+    ],
+    "outils": [
+      "Create React App pour initier le projet.",
+      "Sass pour gérer le CSS."
+    ],
+    "objectifs": [
+      "Développer une interface web avec Sass.",
+      "Configurer la navigation entre les pages avec React Router.",
+      "Développer des composants d'interface avec React."
+    ]
   },
   {
     "title": "Nina Carducci",
     "description": "Explorez la monde de la photographie sur le site web de Nina Carducci.",
     "btnSee": "Voir détails",
     "imgPath": "../src/assets/images/nina-carducci-img.jpg",
-    "sujet": "Bla bla bla",
-    "lien": "https://pisc09.github.io/nina/"
+    "lien": "https://pisc09.github.io/nina/",
+    "taches": [
+      "Optimiser le référencement d'un site en améliorant sa performance et son accessibilité."
+    ],
+    "outils": [
+      "Outils d'analyse comme Lighthouse et Wave pour évaluer le site."
+    ],
+    "objectifs": ["Optimiser la performance d'un site web."]
   }
 ]
