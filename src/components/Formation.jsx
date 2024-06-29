@@ -1,9 +1,11 @@
+import formation from "../../public/images/formation-img.jpg";
+
 export default function Formation() {
   return (
     <div className="p-10 bg-white">
       <div className="relative isolate overflow-hidden rounded-xl bg-white px-6 py-24 sm:py-32 lg:px-8">
         <img
-          src="../src/assets/images/formation-img.jpg"
+          src={formation}
           alt=""
           className="absolute brightness-50 inset-0 -z-10 h-full w-full object-cover"
         />
