@@ -3,7 +3,7 @@
     "title": "Riding Cities",
     "description": "Une association dédiée aux amateurs de skateboard, promouvant la culture urbaine.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/riding-cities-img.png",
+    "imgPath": "../../public/images/riding-cities-img.png",
     "lien": "https://pisc09.github.io/riding/",
     "taches": [
       "Créer une nouvelle section sur la page web de l'association.",
