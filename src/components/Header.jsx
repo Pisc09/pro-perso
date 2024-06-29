@@ -19,7 +19,7 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex flex-1">
-          <div className="hidden lg:flex lg:gap-x-12">
+          <div className="hidden lg:flex lg:gap-x-12 hover:*:text-indigo-600">
             {navigation.map((item) => (
               <a
                 key={item.name}
@@ -101,7 +101,7 @@ export default function Header() {
               </a>
             </div>
           </div>
-          <div className="mt-6 space-y-2">
+          <div className="mt-6 space-y-2 hover:*:text-indigo-600">
             {navigation.map((item) => (
               <a
                 key={item.name}
