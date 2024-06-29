@@ -2,7 +2,7 @@ export default function Stats() {
   return (
     <>
       <div className="bg-slate-50 px-5 py-10" id="Compétences">
-        <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-4">
+        <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-4">
           <div className="flex flex-row justify-between overflow-hidden rounded-lg bg-red-50 px-4 py-5 shadow sm:p-6">
             <div>
               <dt className="truncate text-sm font-medium text-gray-500">
