@@ -21,7 +21,7 @@
     "title": "Start-up Booki",
     "description": "Réservez des voyages incroyables facilement avec Booki, votre start-up de confiance.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/booki-img.jpg",
+    "imgPath": "/images/booki-img.jpg",
     "lien": "https://pisc09.github.io/booki/",
     "taches": [
       "Créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS.",
@@ -41,7 +41,7 @@
     "title": "Ohmyfood",
     "description": "Découvrez les menus des meilleurs restaurants sur OmyFood.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/ohmyfood-img.jpg",
+    "imgPath": "/images/ohmyfood-img.jpg",
     "lien": "https://pisc09.github.io/ohmyfood/",
     "taches": [
       "Intégrer une maquette en mobile-first pour le site d'une start-up.",
@@ -61,7 +61,7 @@
     "title": "Print-it",
     "description": "Impressions de haute qualité pour tous vos projets d'impression et créations.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/print-it-img.jpg",
+    "imgPath": "/images/print-it-img.jpg",
     "lien": "https://pisc09.github.io/print-it/",
     "taches": [
       "Dynamiser le site internet statique d'une imprimerie en ajoutant un carrousel interactif en JavaScript."
@@ -76,7 +76,7 @@
     "title": "Kasa",
     "description": "Trouvez votre appartement idéal entre particuliers avec le site Kasa.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/kasa-img.jpg",
+    "imgPath": "/images/kasa-img.jpg",
     "lien": "https://incandescent-rugelach-a5d71f.netlify.app/",
     "taches": [
       "Implémenter le front-end d'une application avec React et React Router.",
@@ -96,7 +96,7 @@
     "title": "Nina Carducci",
     "description": "Explorez la monde de la photographie sur le site web de Nina Carducci.",
     "btnSee": "Voir détails",
-    "imgPath": "../src/assets/images/nina-carducci-img.jpg",
+    "imgPath": "/images/nina-carducci-img.jpg",
     "lien": "https://pisc09.github.io/nina/",
     "taches": [
       "Optimiser le référencement d'un site en améliorant sa performance et son accessibilité."
